@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(185, 173, 230);
+  }
+  
+  h1 {
+    color: rgb(190, 33, 33);
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+}
+.tiledBackground {
+    background-image: "img/paw-prints-background.jpg";
+    background-size: 150px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    color: pink;
+}
