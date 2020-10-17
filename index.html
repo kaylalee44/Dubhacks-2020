@@ -2,13 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="author" content="your name">
-    <meta name="description" content="description of your page">
-    <title>My Page Title</title>
+    <meta name="author" content="Sophie, Arya, Alyssa, Kayla">
+    <meta name="description" content="Home page of Furry Friends site">
+
+    <!-- normalize.css for cross-browser stuff -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+
+    <!-- Font Awesome Library via CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <title>Furry Friends!</title>
+    <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
-    ...
-    Content goes here!
-    ...
+    <nav>
+        <ul>
+            <li><a href="#"><span aria-hidden="true" class="logo">&nbsp</span>Furry Friends</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="PAGE_NAME.html">About Us</a></li>
+            <li><a href="companions.html">Companions</a></li>
+            <li><a href="PAGE_NAME.html">Shelters</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Furry Friends!</h1>
+        <img src="/img/dog.jpg" id='dog-home'/>
+        <div class="searchBox" role="search">
+            <input type="text" placeholder="Find a shelter near you">
+            <button><i class="fas fa-search fa-flip-horizontal" aria-label="search"></i></button>
+        </div>
+    </main>
 </body>
 </html>
