@@ -1,0 +1,77 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 8px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    background-color: #4b2e83;
+    padding: .75rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1rem;
+    padding-bottom: .8rem;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    padding-top: .5rem;
+    display: inline-block;
+}
+
+#dog-home {
+    max-width: 100%;
+    min-height: 200px;
+}
+
+.searchBox {
+    position: absolute;
+    left:40%;
+    top:50%;
+    width:30%;
+}
+
+.searchBox input {
+    height: 2.5rem;
+    font-size: 1rem;
+    padding-right: 10rem;
+    vertical-align: bottom;
+}
+
+.searchBox button {
+    height: 2.5rem;
+    font-size: 1.5rem;
+    padding: .3rem;
+}
+
+nav li:hover, nav li:active, nav li:focus {
+    color: #b7a57a;
+    border-bottom: .6rem solid #b7a57a;
+}
+
+.logo {
+    padding-right: 1em;
+    padding-left: 1em;
+    background-image: url('../img/pets_24px.png');
+    background-position-x: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    position: absolute;
+    left:44%;
+    top:43%;
+}
