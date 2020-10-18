@@ -74,4 +74,8 @@ h1 {
     position: absolute;
     left:44%;
     top:43%;
+    color: rgb(250, 247, 204);
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
 }
