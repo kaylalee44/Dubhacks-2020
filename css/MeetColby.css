@@ -74,7 +74,7 @@ font-family: 'Helvetica', sans-serif;
 #list-items{
   display: inline-block;
   text-align: left;
-  position: relative;
+  /*position: relative;*/
   
 }
 
