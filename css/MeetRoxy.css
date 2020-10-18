@@ -91,3 +91,13 @@ p {
     text-align: center;
     position: relative;
 }
+
+#button{
+    display: block;
+
+}
+
+#choose-me{
+    margin-left: auto;
+    margin-right: auto; 
+}
